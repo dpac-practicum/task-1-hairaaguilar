@@ -1,0 +1,16 @@
+#Name: Haira Aguilar
+#Date: 9/13/19
+#Program Name: alphabet.py
+
+fifthLetters = [101, 106, 111, 116, 121]
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+for letter in range (97, 123):
+    if (letter in fifthLetters and chr(letter) in vowels):
+        print(chr(letter).upper(), chr(letter).upper())
+    elif (letter in fifthLetters):
+        print(chr(letter).upper())
+    elif (chr(letter) in vowels):
+        print(chr(letter), chr(letter))
+    else:
+        print(chr(letter))
